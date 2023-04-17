@@ -1,6 +1,6 @@
-use std::collections::HashSet;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
+use std::collections::HashSet;
 use rand::seq::IteratorRandom;
 
 pub struct WordList {
